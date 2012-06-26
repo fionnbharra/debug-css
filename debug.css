@@ -1,0 +1,12 @@
+/*highlight links with empty href attribute*/
+a[href = ""] {
+  background: red;
+  color: white;
+  font-size: x-large;
+}
+/*highlight absolute urls*/
+a[href ^= http] {
+  display: inline-block;
+  color: red;
+  transform: rotate(180deg);
+}

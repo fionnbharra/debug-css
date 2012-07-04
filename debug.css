@@ -10,3 +10,7 @@ a[href ^= http] {
   color: red;
   transform: rotate(180deg);
 }
+/*highlight images with no alt tag*/
+img[alt = ""] {
+  border:1px red dotted;
+}
